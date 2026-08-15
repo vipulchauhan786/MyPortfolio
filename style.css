@@ -89,7 +89,7 @@ ul {
   flex-wrap: wrap;
   gap: 40px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   align-items: center;
 }
 
@@ -220,7 +220,6 @@ ul {
 
 /* ===== SECTIONS (about, skills, projects, education, contact) ===== */
 .section {
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
