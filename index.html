@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipul Chauhan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="top">
+    <div class="nav__brand">
+      <span class="nav__prompt">~/</span><span class="nav__name">Vipul Chauhan </span>
+    </div>
+    <nav class="nav__links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__text">
+      <p class="eyebrow">// Mca student &middot; Fronted Developer</p>
+      <h1>Hi, I'm <span class="accent"><br>Vipul Chauhan</span>.<br>I build things that connect.</h1>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">Hire Me</a>
+        <a href="#projects" class="btn btn--ghost">View Work</a>
+      </div>
+      <div class="hero__stack">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+      </div>
+    </div>
+
+    <div class="terminal" id="terminal">
+      <div class="terminal__bar">
+        <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+        <span class="terminal__title">bash — whoami</span>
+      </div>
+      <div class="terminal__body" id="terminalBody">
+        <p><span class="prompt">guest@web:~$</span> <span id="typedLine"></span><span class="cursor">&#9608;</span></p>
+        <div class="terminal__output" id="terminalOutput"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <p class="section__label">// about</p>
+    <h2 class="section__title">Where curiosity meets code.</h2>
+    <div class="about__grid">
+      <p class="about__text">
+        I'm an MCA student at Gujarat Technological University (GTU) with a strong interest in Web Development and
+        Software Engineering.
+        I enjoy creating responsive, interactive, and user-friendly websites using HTML, CSS, and JavaScript.
+        I'm passionate about solving problems through clean design, logical thinking, and creative ideas.
+        I'm always learning and improving my skills to build better digital experiences.
+      </p>
+      <ul class="about__langs">
+        <li>Hindi</li>
+        <li>English</li>
+        <li>Gujarati</li>
+      </ul>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="stat__num">2</span><span class="stat__label">Years learning to code</span></div>
+      <div class="stat"><span class="stat__num">2</span><span class="stat__label">Projects built</span></div>
+      <div class="stat"><span class="stat__num">BCA : 6.54
+        </span><span class="stat__label">CGPA</span></div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <p class="section__label">// skills</p>
+    <h2 class="section__title">What I build with.</h2>
+    <div class="skills__grid">
+      <div class="skill__group">
+        <h3>Front-End</h3>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+      <div class="skill__group">
+        <h3>Programming</h3>
+        <div class="tags">
+          <span>Python</span>
+        </div>
+      </div>
+      <div class="skill__group">
+        <h3>Tools</h3>
+        <div class="tags">
+          <span>Git</span><span>GitHub</span><span>VS Code</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <p class="section__label">// projects</p>
+    <div class="projects__grid">
+      <article class="card">
+        <h3>Text-to-Voice-Converter</h3>
+        <p>A text-to-voice app converts written text into spoken audio using AI-generated voices.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+        </div>
+        <br>
+        <a href="https://github.com/vipulchauhan786/Text-to-Voice-Converter.git" class="card__link">GitHub &rarr;</a>
+      </article>
+      <article class="card">
+        <h3>WeatherApp </h3>
+        <p>A weather app provides real-time weather information and forecasts for a specific location.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+        </div>
+        <br>
+        <a href="https://github.com/vipulchauhan786/weatherapp.git" class="card__link">GitHub &rarr;</a>
+      </article>
+      <!-- duplicate .card block for more projects -->
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section" id="education">
+    <p class="section__label">// education</p>
+    <div class="edu__grid">
+      <div class="edu__block">
+        <h3>Education</h3>
+        <p class="edu__degree">MCA, Computer Applications</p>
+        <p class="edu__school">Gujarat Technological University (GTU) &middot; [2025-2027]</p>
+        <p class="edu__note">Currently Persuing </p>
+        <br>
+        <br>
+        <br>
+        <p class="edu__degree">BCA, Bachelor of Computer Applications</p>
+        <p class="edu__school">Sankalchand Patel University, Visnagar &middot; [2022-2025]</p>
+        <p class="edu__note">CGPA : 6.54</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section--contact" id="contact">
+    <p class="section__label">// contact</p>
+    <h2 class="section__title">Let's build something.</h2>
+    <div class="contact__links">
+      <a href="vipulchauhan15404@gmail.com">&#9993; vipulchauhan15404@gmail.com</a>
+      <a href="tel:+917862856086">&#9742; +91 7862856086</a>
+      <a href="https://www.linkedin.com/in/vipul-chauhan-38526b362" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/vipulchauhan786" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Code. Create. Improve. Repeat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
